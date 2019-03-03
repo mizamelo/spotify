@@ -3,11 +3,15 @@ import { colors, metrics } from '../../styles';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: colors.primary,
+    flex: 1,
   },
   headerRight: {
     marginRight: metrics.basePadding,
+  },
+
+  loading: {
+    marginTop: metrics.basePadding * 2,
   },
 });
 

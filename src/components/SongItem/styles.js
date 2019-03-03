@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native';
-import { colors, metrics } from '../../../../styles';
+import { metrics, colors } from '../../styles';
 
 const styles = StyleSheet.create({
   author: {
-    color: colors.whiteTransparent,
-    fontSize: 12,
-    fontWeight: 'bold',
+    color: colors.white,
+    fontSize: 14,
+    marginTop: 3,
   },
   container: {
     alignItems: 'center',
@@ -15,22 +15,20 @@ const styles = StyleSheet.create({
   },
   info: {
     flex: 1,
-    marginLeft: metrics.baseMargin,
-  },
-  more: {
-    color: colors.white,
   },
 
-  thumbnail: {
-    borderRadius: 28,
-    height: 56,
-    width: 56,
+  play: {
+    color: colors.regular,
   },
 
   title: {
     color: colors.white,
     fontSize: 15,
     fontWeight: 'bold',
+  },
+
+  active: {
+    color: colors.green,
   },
 });
 

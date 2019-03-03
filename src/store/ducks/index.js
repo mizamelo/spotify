@@ -1,7 +1,11 @@
 import { combineReducers } from 'redux';
 
-import favorites from './favorites';
+import albums from './albums';
+import search from './search';
+import player from './player';
 
 export default combineReducers({
-  favorites,
+  albums,
+  search,
+  player,
 });
