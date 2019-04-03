@@ -1,6 +1,6 @@
 # Spotify by React-Native
 
-## Instalation
+## Installation
 ````bash
 $ yarn
 ````
